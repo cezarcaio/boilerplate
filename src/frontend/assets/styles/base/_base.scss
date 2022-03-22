@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	position: relative;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth; 
+}
+
+body {
+	font-size: 1.6rem;
+	-webkit-font-smoothing: antialiased; //mac
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	flex-shrink: 0;
+}
+
+main {
+	flex-grow: 1;
+}
+
+footer {
+	flex-shrink: 0;
+}
+
+button {
+	cursor: pointer;
+}
